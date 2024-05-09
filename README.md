@@ -10,7 +10,7 @@ Copyright (c) 2022, Jin Hyun Cheong, Tiankang Xie, Sophie Byrne, Eshin Jolly, Lu
 https://github.com/cosanlab/py-feat/blob/main/LICENSE
 
 ---以下rikuが追記---
-使い方
+本システムの動かし方
 1. git clone https://github.com/riku310/new_face_emo.git
 2. docker-compose build => 一度buildしたらもうしない（はず）
 3. docker-compose up
