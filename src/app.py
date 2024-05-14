@@ -54,6 +54,10 @@ if img_file_buffer :
   image_prediction = detector.detect_image("temporary.jpg")
   image_prediction = image_prediction[["anger", "disgust", "fear", "happiness", "sadness", "surprise", "neutral"]]
   emotion = image_prediction.idxmax(axis = 1)[0]
+  if emotion == "anger":
+    emotion = "怒る"
+  elif emotion == "happiness":
+    emotion = "幸せ"
 
   st.markdown("#### あなたの表情は")
   st.markdown("### {}です".format(emotion))
@@ -61,7 +65,6 @@ if img_file_buffer :
   
   
   
-
 
 
 
