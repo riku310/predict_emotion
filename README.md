@@ -14,7 +14,7 @@ https://github.com/cosanlab/py-feat/blob/main/LICENSE
 1. git clone https://github.com/riku310/new_face_emo.git
 2. docker-compose build => 一度buildしたらもうしない（はず）
 3. docker-compose up
-4. http://localhost:8501/にアクセスする
+4. http://localhost:8501/ にアクセスする
 
 今後の展望
 1. 起動するカメラを2台にする
